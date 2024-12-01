@@ -5,6 +5,7 @@ define('PASSWORD','mariadb');
 define('DNAME','school');
 
 //connect with database
+try{
 $connect=mysqli_connect(SERVERNAME,USERNAME,PASSWORD,DNAME);
     if(!$connect){
         die("connection failed".mysqli_connect_error());
