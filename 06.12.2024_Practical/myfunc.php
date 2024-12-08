@@ -46,7 +46,7 @@ catch(Exception $e){
 	die($e->getMessage());
 }
 }
- //GET DATA FROM DB
+
  function TeacherDetails($teacher_id,$connect){
             try{
             
