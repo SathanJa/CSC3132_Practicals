@@ -2,10 +2,10 @@
 <?php
 //get the database connection file
 require_once 'dbconf.php';
-function PrintTable($tableName,$connect){
+function GetData($connect){
 try{
 	//Query
-	$sql = "SELECT * FROM $tableName";
+	$sql = "SELECT techer_id,department FROM teacher";
 
 	//execute the query (call variable,query)
 	$result = mysqli_query($connect,$sql);
