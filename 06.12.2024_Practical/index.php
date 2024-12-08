@@ -11,6 +11,6 @@
 
     <a href="getData.php">Get Table</a>
     <br>
-    <a href="print.php">Print</a>
+    <a href="myfunc.php">Print</a>
 </body>
 </html>
