@@ -16,8 +16,8 @@ require_once 'fun/myfunc.php';
 <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="GET">
 		<table>
 			<tr>
-				<td align="right">Book Name:</td>
-				<td><input type="text" name="bkname" /></td>
+				<td align="right">Name:</td>
+				<td><input type="text" name="name" /></td>
 			</tr>
 			<tr>
 				<td></td>
@@ -26,8 +26,8 @@ require_once 'fun/myfunc.php';
 		</table>
 
 <?php
-if (isset($_GET['bkname']) && $_GET['bkname'] != '') {
-	SearchBooks($_GET['bkname'],$connect);
+if (isset($_GET['name']) && $_GET['name'] != '') {
+	SearchData($_GET['name'],$connect);
 }
 	
 ?>
