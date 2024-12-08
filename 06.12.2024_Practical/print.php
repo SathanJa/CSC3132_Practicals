@@ -10,7 +10,7 @@
       require_once 'dbconf.php';
       require_once 'myfunc.php';
 
-      $teacher_id=$_GET["teacher_id"];
+      $teacher_id=$_GET['teacher_id'];
 
       TeacherDetails($teacher_id,$connect);
    ?>
