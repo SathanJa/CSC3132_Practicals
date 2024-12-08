@@ -8,8 +8,8 @@
 <body>
 <?php
 //get the db connection file
-require_once 'conf/dbconf.php';
-require_once 'fun/myfunc.php';
+require_once 'dbconf.php';
+require_once 'myfunc.php';
 //PrintTable("teacher",$connect);
 //echo $_SERVER['PHP_SELF']; //get the file name
 ?>
