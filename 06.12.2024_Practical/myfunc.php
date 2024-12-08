@@ -47,10 +47,10 @@ catch(Exception $e){
 }
 }
  //GET DATA FROM DB
- function SearchData($name,$connect){
+ function TeacherDetails($teacher_id,$connect){
             try{
             
-                $sql = "SELECT * FROM  teacher where name like '%$name%' ";
+                $sql = "SELECT * FROM  teacher where teacher_id like '%$teacher_id%' ";
             
             
                 $result = mysqli_query($connect,$sql);
