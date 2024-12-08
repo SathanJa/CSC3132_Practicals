@@ -23,6 +23,7 @@ try{
 		//print_r($value)
 			echo "<td>".$value->name."</td>";
 		}
+		echo "<td> View Details </td>";
 		echo "</tr>";
 		while($row = mysqli_fetch_assoc($result)){
 			//print the data in table format
@@ -31,6 +32,8 @@ try{
 		foreach ($row as $key => $value) {
 			echo "<td>$value</td>";
 		}
+		$teacher_id=$row['teacher_id'];
+        
 		echo "</tr>";
 		}
 		echo "</table>";
