@@ -6,6 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h2>2020/ASP/58</h2>
+    <br>
+
+    <a href="getData.php">Get Table</a>
+    <br>
+    <a href="print.php">Print</a>
 </body>
 </html>
