@@ -10,7 +10,7 @@
 //get the db connection file
 require_once 'conf/dbconf.php';
 require_once 'fun/myfunc.php';
-//PrintTable("books",$connect);
+//PrintTable("teacher",$connect);
 //echo $_SERVER['PHP_SELF']; //get the file name
 ?>
 <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="GET">
