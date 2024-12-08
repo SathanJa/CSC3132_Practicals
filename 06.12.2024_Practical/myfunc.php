@@ -33,7 +33,7 @@ try{
 			echo "<td>$value</td>";
 		}
 		$teacher_id=$row['teacher_id'];
-        
+        echo "<td><a href='print.php? teacher_id=$teacher_id '> View </a> </td>";
 		echo "</tr>";
 		}
 		echo "</table>";
