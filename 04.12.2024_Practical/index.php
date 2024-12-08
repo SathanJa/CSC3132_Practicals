@@ -7,6 +7,6 @@
 </head>
 <body>
     <h1>2020/ASP/58</h1>
-    <a href="getTable.php"></a>
+    <a href="getTable.php">Get Table</a>
 </body>
 </html>
