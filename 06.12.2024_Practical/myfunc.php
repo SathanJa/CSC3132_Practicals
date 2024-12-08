@@ -5,7 +5,7 @@ require_once 'dbconf.php';
 function GetData($connect){
 try{
 	//Query
-	$sql = "SELECT techer_id,department FROM teacher";
+	$sql = "SELECT teacher_id,department FROM teacher";
 
 	//execute the query (call variable,query)
 	$result = mysqli_query($connect,$sql);
